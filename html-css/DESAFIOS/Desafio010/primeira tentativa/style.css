@@ -1,0 +1,74 @@
+@charset "UTF-8";
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(255, 236, 212);  
+}
+
+header{
+    margin: -8px -8px -8px -8px;
+    background-image: linear-gradient(to bottom, rgb(46, 166, 101),rgb(4, 49, 24));
+    
+}
+
+#principal{
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    padding: 67px 67px 0px 67px;
+}
+#importante{
+    text-align: center;
+    color: white;
+    padding: 0px 67px 34px 67px;
+}
+h3 > a{
+    color: rgb(46, 168, 102);
+    text-decoration: none;
+    padding: 10px;
+}
+h3 > a:hover{
+    text-decoration: underline;
+    background-color: rgb(46, 168, 102);
+    color: rgb(4, 49, 24);
+    padding: 10px;
+    border-radius: 10px;
+
+} 
+h3{
+    padding-bottom: 10px;
+}
+main{
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    margin: 0px 130px;
+    padding: 0px 10px 10px 10px;
+    box-shadow: 0px 1px 7px 0px black;
+}
+main > h2{
+    color: rgb(4, 49, 24);
+    background-image: linear-gradient(to right, rgba(46, 168, 103, 0.445),white );
+}
+menu > h1{
+    margin: 0em;
+}
+body{
+    margin: 0em;
+}
+body > h2{
+    color: rgb(4, 49, 24);
+    background-image: linear-gradient(to right, rgba(46, 168, 103, 0.445),white );
+}
+section{
+    padding: 0px 10px 10px 10px;
+    background-color: rgba(46, 166, 102, 0.274);
+    border-radius: 10px;
+}
+section > h1{
+    background-color: rgb(46, 166, 101);
+}
+footer > p{
+    color: white;
+    background-color: rgb(4, 49, 24);
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Esse vídeo está hospedado no meu próprio servidor</p>
+    <video width="560" height="315"
+     poster="imagem/capa.png" controls>
+        <source src="midia/biscoito.m4v" type="video/mp4">
+        <source src="midia/biscoito.webm" type="video/webm">
+        <source src="midia/biscoito.mp4" type="video/mp4">
+        <p>
+            Seu navegador não é compatível com reprodução de vídeo
+        </p>
+    </video>
+    <h1>Inserindo vídeos hospedados no YouTube</h1>
+    <p>
+        Clicando em compartilhar em um vídeo do youtube
+        e em incorporar em seguida, foi copiado e colado 
+        o código html do vídeo para reproduzir na minha
+        página web
+    </p>
+    <iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/eYGjnuK8nYo" 
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen></iframe>
+    
+</body>
+</html>
